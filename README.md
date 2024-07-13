@@ -1,24 +1,32 @@
-Este proyecto demuestra cómo utilizar Spring Framework para analizar estadísticas de evaluaciones de episodios de series.
+# Tecnologías utilizadas::
+Spring Boot, Spring Data JPA, Hibernate, MySQL, etc.
 
-# Funcionalidades:
-Cálculo de estadísticas: La aplicación calcula estadísticas como la cantidad de evaluaciones, la suma total, el mínimo, el promedio, el máximo, etc. utilizando la clase DoubleSummaryStatistics.
-Personalización de la salida: Puedes personalizar la salida de las estadísticas para mostrar solo los datos que te interesan.
-Procesamiento eficiente de datos: Se utilizan streams y expresiones lambda para procesar los datos de manera eficiente.
+# API utilizada: https://omdbapi.com/
 
-# API utilizada:
-Spring Framework: Se utiliza Spring Framework para la gestión de la aplicación.
-Streams y expresiones lambda: Se utilizan streams y expresiones lambda para procesar los datos.
+# Funcionalidades principales:
 
-# Opciones:
-Análisis de diferentes series: Puedes analizar las estadísticas de diferentes series.
-Personalización de la salida: Puedes personalizar la salida de las estadísticas para mostrar solo los datos que te interesan.
+# Gestión de series:
 
-# Serie buscada
-![image](https://github.com/danielmaya2420/ScreenmatchConSpring/assets/95893333/2c46e325-d7a5-4d1a-b1f3-70482bab505c)
+# Agregar nuevas series: Permite al usuario introducir información sobre una nueva serie, incluyendo título, género, descripción, etc.
+# Buscar series: Permite al usuario buscar series por título, género o cualquier otro criterio.
+# Ver detalles de una serie: Muestra información completa sobre una serie, incluyendo sus episodios.
+# Modificar información de una serie: Permite al usuario actualizar la información de una serie existente.
+# Eliminar una serie: Permite al usuario eliminar una serie de la base de datos.
 
-# Filtro por año de búsqueda
-![image](https://github.com/danielmaya2420/ScreenmatchConSpring/assets/95893333/11ba03cd-dded-4b94-9c69-770fee33642b)
+# Gestión de episodios:
 
-# Búsqueda de episodio
-![image](https://github.com/danielmaya2420/ScreenmatchConSpring/assets/95893333/c5d28dad-3280-4c83-968c-da437bd4fc5d)
+# Agregar nuevos episodios: Permite al usuario introducir información sobre un nuevo episodio, incluyendo título, número de temporada, número de episodio, descripción, etc.
+# Buscar episodios: Permite al usuario buscar episodios por título, número de temporada, número de episodio o cualquier otro criterio.
+# Ver detalles de un episodio: Muestra información completa sobre un episodio, incluyendo su serie, temporada y número de episodio.
+# Modificar información de un episodio: Permite al usuario actualizar la información de un episodio existente.
+# Eliminar un episodio: Permite al usuario eliminar un episodio de la base de datos.
 
+# Consultas avanzadas:
+
+# Top 5 episodios de una serie: Permite al usuario consultar los 5 episodios mejor valorados de una serie específica.
+
+# Funcionalidades adicionales:
+
+# Interfaz de usuario: La aplicación cuenta con una interfaz de usuario básica para interactuar con el usuario.
+# Manejo de errores: La aplicación maneja los errores de forma adecuada, mostrando mensajes informativos al usuario.
+Seguridad: La aplicación implementa medidas de seguridad básicas para proteger la base de datos.
